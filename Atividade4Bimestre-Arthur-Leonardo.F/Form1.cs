@@ -21,5 +21,12 @@ namespace Atividade4Bimestre_Arthur_Leonardo.F
         {
             Application.Exit();
         }
+
+        private void tabuadaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmtabuada tabuada = new frmtabuada();
+            tabuada.Show();
+        }
     }
 }

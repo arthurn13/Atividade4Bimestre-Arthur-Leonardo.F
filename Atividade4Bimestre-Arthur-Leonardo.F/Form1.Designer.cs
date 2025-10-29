@@ -71,6 +71,7 @@
             this.tabuadaToolStripMenuItem.Name = "tabuadaToolStripMenuItem";
             this.tabuadaToolStripMenuItem.Size = new System.Drawing.Size(270, 26);
             this.tabuadaToolStripMenuItem.Text = "Tabuada";
+            this.tabuadaToolStripMenuItem.Click += new System.EventHandler(this.tabuadaToolStripMenuItem_Click);
             // 
             // conversãoDeTemperaturaToolStripMenuItem
             // 
@@ -88,7 +89,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1182, 753);
+            this.ClientSize = new System.Drawing.Size(1182, 553);
             this.ControlBox = false;
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
