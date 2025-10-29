@@ -28,5 +28,17 @@ namespace Atividade4Bimestre_Arthur_Leonardo.F
             frmtabuada tabuada = new frmtabuada();
             tabuada.Show();
         }
+
+        private void conversãoDeTemperaturaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmconversao conversao = new frmconversao();
+            conversao.Show();
+        }
+
+        private void áreaDeCasaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

@@ -112,7 +112,7 @@
             this.txtresult.Multiline = true;
             this.txtresult.Name = "txtresult";
             this.txtresult.ReadOnly = true;
-            this.txtresult.Size = new System.Drawing.Size(98, 172);
+            this.txtresult.Size = new System.Drawing.Size(58, 172);
             this.txtresult.TabIndex = 8;
             // 
             // lblresult

@@ -30,7 +30,7 @@ namespace Atividade4Bimestre_Arthur_Leonardo.F
                 {
                     result = i * num;
                     i++;
-                    txtresult.Text += result + ", \r\n";
+                    txtresult.Text += result + "\r\n";
                 } while (i <= 10);
         }
 
@@ -57,7 +57,7 @@ namespace Atividade4Bimestre_Arthur_Leonardo.F
                 for (i = 1; i <= 10; i++)
             {
                 result = i * num;
-                txtresult.Text += result + ", \r\n";
+                txtresult.Text += result + "\r\n";
             }
 
         }
@@ -75,7 +75,7 @@ namespace Atividade4Bimestre_Arthur_Leonardo.F
             while (i <= 10)
             {
                 result = i * num;
-                txtresult.Text += result + ", \r\n";
+                txtresult.Text += result + "\r\n";
                 i++;
             }
         }

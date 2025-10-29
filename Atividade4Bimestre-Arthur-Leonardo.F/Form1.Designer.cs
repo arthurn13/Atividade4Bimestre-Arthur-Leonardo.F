@@ -78,12 +78,14 @@
             this.conversãoDeTemperaturaToolStripMenuItem.Name = "conversãoDeTemperaturaToolStripMenuItem";
             this.conversãoDeTemperaturaToolStripMenuItem.Size = new System.Drawing.Size(270, 26);
             this.conversãoDeTemperaturaToolStripMenuItem.Text = "Conversão de Temperatura";
+            this.conversãoDeTemperaturaToolStripMenuItem.Click += new System.EventHandler(this.conversãoDeTemperaturaToolStripMenuItem_Click);
             // 
             // áreaDeCasaToolStripMenuItem
             // 
             this.áreaDeCasaToolStripMenuItem.Name = "áreaDeCasaToolStripMenuItem";
             this.áreaDeCasaToolStripMenuItem.Size = new System.Drawing.Size(270, 26);
             this.áreaDeCasaToolStripMenuItem.Text = "Área de Casa";
+            this.áreaDeCasaToolStripMenuItem.Click += new System.EventHandler(this.áreaDeCasaToolStripMenuItem_Click);
             // 
             // frmmenu
             // 
