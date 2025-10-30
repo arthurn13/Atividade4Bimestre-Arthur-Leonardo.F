@@ -38,7 +38,9 @@ namespace Atividade4Bimestre_Arthur_Leonardo.F
 
         private void áreaDeCasaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Hide();
+            frmarea area = new frmarea();
+            area.Show();
         }
     }
 }

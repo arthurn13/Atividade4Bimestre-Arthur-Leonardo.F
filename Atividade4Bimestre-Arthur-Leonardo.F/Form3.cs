@@ -34,7 +34,6 @@ namespace Atividade4Bimestre_Arthur_Leonardo.F
                 i = i + 10;
                 txtresult.Text += resultado + "\r\n";
             } while (i <= 100);
-            txtresult.Clear();
         }
 
         private void btnwhile_Click(object sender, EventArgs e)
